@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <title>demo work</title>
+   <style type="text/css">
 body{
     padding: 0%;
     margin: 0%;
@@ -13,15 +13,26 @@ body{
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    margin: 8px 0px;
+}
+
+p {
+    margin: 6px 0px;
+}
+
 a {
     text-decoration: none;
 }
 
 .wrap {
-   background-color: bisque;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
+.row:has(> .top) {
+    background-color: hsl(0, 79%, 38%);
+}
 .top {
     display: flex;
     justify-content: space-between;
@@ -33,116 +44,132 @@ a {
 }
 
 nav ul {
-    padding: 0;
+    
     list-style: none;
     margin: 8px 0;
 }
 nav ul > li {
     display: inline-block;
-    padding: 10px 20px;
+  
 }
 
 nav ul > li a {
-    color: hsl(210, 88%, 60%);
-}
-.s11{
-    background-color: greenyellow;
-    text-align: center;
-    height: 250px;
-    margin-top: 0%;
-    padding: 30px;
+    color: hwb(247 93% 4%);
+   margin: 7px 16px;
     
 }
-.b11{
-    background-color: blue;
-    border: 1px solid red;
-    padding:7px;
-    border-radius: 20px;
+.row{
+    background-color: black;
+}
+img{
+    height: 60px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+}
+
+.aa1{
+    background-color: green;
+}
+.dd1{
+    max-width:1140px;
+    margin: 0 auto;
+    height: 200px;
+}
+.be1{
+    text-align: center;
+    padding: 50px;
+
+}
+.cc1{
+    border: 1px solid gray;
+    background-color: red;
+    padding: 10px 17px;
+    color: rgb(238, 235, 235);
+}
+.main{
+    background-color: #f1f1f1;
+}
+.main2{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.pp1{
+    text-align: center;
+    padding-top: 40px;
 }
 .box1{
-    background-color: aliceblue;
-
+    max-width: 1140px;
 }
 .box{
+    width:380px;
     float: left;
-    width:32.96%; 
     border: 1px solid red;
-    margin-left: 5px;
     text-align: center;
+    border-radius: 4%;
+    height: 250px;
 
-    
 }
-.p1{
-    background-color: blueviolet;
-    margin:0;
-    padding:5px;
-    height: 250px; 
- }
-#hero{
-    background-color: gold;
-  
- }
-    </style>
+.ss1{
+    max-width: 1140px;
+    background-color: aqua;
+    height: 500px;
+   
+}
+
+   </style>
+
+
 </head>
 <body>
-    <div class="row">
-        <div class="wrap top">
-            <nav>
-                <h1><img src="img/logo.png" alt="Logo" /></h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Service</a></li>
-                </ul>
-            </nav>
-            <form class="search">
-                <input type="text" name="q"  />
-                <button>Search</button>
-            </form>
-        </div>
+<div class="row">
+    <div class="wrap top">
+        <nav>
+            <h1><img src="samim.png" alt="logo"></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Option</a></li>
+            </ul>
+        </nav>
+        <from>
+            <input type="text" name="samim">
+            <button class="bu1">Search</button>
+        </from>
     </div>
-        <div class="s11">
-            <h1 style="font-size: 50px;">Bangladesh, to the east of India </h1>
-            <h4 style="font-size: 20px;">South Asian country marked by lush greenery and many waterways. Its Padma</h4>
-            <button class="b11">Button</button>
-         </div>
-        
-<div class="box1">
-    <div class="box">
-        <p class="p1">first</p>
-        <h1>Bangladesh</h1>
-        <p>Bangladesh, to the east of India on the Bay of Bengal, is a country</p>
-    </div>
-        <div class="box">
-            <p class="p1">first</p>
-            <h1>Bangladesh</h1>
-            <p>Bangladesh, to the east of India on the Bay of Bengal, is a country</p>
-        </div>
-            <div class="box">
-                <p class="p1">first</p>
-                <h1>Bangladesh</h1>
-                <p>Bangladesh, to the east of India on the Bay of Bengal, is a country</p>
-            </div>
 </div>
-        <section id="hero">
-            <div class="mm3">
-                <p class="c1">logo</p>
-                <p>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country</p>
-                <button class="bb2">button</button>
-            </div>
-                   <div class="mm3">
-                        <p class="c1">logo</p>
-                        <p>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country</p>
-                        <button class="bb2">button</button>
-                   </div>
-                         <div class="mm3">
-                              <p class="c1">logo</p>
-                              <p>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country</p>
-                               <button class="bb2">button</button>
-                         </div>
-        </section>
-
-
+<div class="aa1">
+    <div class="dd1 be1">
+           <h1>Bangladesh, to the east of India </h1>
+             <p>South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains </p><br>
+            <button class="cc1">boutton</button>
+    </div>
+</div>
+<div class="main">
+     <div class="main2">
+        <div class="pp1">
+            <p style="font-size: 30px;">Bangladesh, to the east of India on the Bay of Bengal, <span style="font-size: 20px;color: aqua;">is a South Asian</span> </p>
+            <p style="font-style: italic;">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous</p>
+        </div>
+                <div class="box1">
+                       <div class="box">
+                        <p class="box3">first</p>
+                        <h5>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways.</h5>
+                       </div>
+                     
+                      <div class="box">
+                           <p class="box3">second</p>
+                            <h5>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked blusgreenery and many waterways.</h5>
+                      </div>
+                          <div class="box" >
+                              <p class="box3">Third</p>
+                               <h5>Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways.</h5>
+                           </div>
+               </div> 
+     </div>
+</div>
+    <div class="ss1">
+        <p>samim fdhfgj nfgjyuds </p>
+    </div>
 </body>
 </html>
